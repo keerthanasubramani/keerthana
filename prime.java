@@ -6,6 +6,7 @@ class prime
     {
         int count=0;
         Scanner sc=new Scanner (System.in);
+       // System.out.println("Enter a number:");
         int num=sc.nextInt();
         System.out.println("Enter a number:"+num);
         for(int i=2;i<num;i++)
@@ -27,5 +28,6 @@ class prime
         
     }
 }
+
 
 
