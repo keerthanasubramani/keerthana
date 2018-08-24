@@ -9,6 +9,10 @@ class g12
         {
             System.out.print("Even");
         }
+        else if(a<0)
+        {
+            System.out.print("Invalid");
+        }
         else
         {
             System.out.print("Odd");
